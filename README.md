@@ -1,22 +1,22 @@
-# Available .WTF One-Word Domains (5,622,106)
+# Available .WTF One-Word Domains (7,790)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
-  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-7%2C790%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-5%2C622%2C106%20domains-6f42c1">
+  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-7%2C793%20rows-8250df">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-7%2C790%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
 
-Daily-updated public extract of available and resale .wtf one-word domains from Unique Domains.
+Daily-updated dataset of available and resale .wtf one-word domains from Unique Domains.
 
-> **Important:** this repository is a **public 7,790-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **5,622,106 domains** on the canonical page below.
+> **Note:** this repository currently mirrors the full live catalog for this exact search.
+> Unique Domains counts can still change as the search refreshes.
 
-**Public extract:** 7,790 rows · **Live catalog:** 5,622,106 domains
+**Public extract:** 7,793 rows · **Live catalog:** 7,790 domains
 
-**Last updated:** 2026-04-10  
+**Last updated:** 2026-04-12  
 **Canonical page:** `https://unique.domains/domains/tld/wtf`  
 **Best for:** founders, investors, studios
 
@@ -43,8 +43,8 @@ This repository is the public extract for Unique Domains' .WTF one-word domain c
 
 ### Files
 
-- `wtf.csv` — public CSV extract (7,790 rows)
-- `wtf.json` — public JSON extract (7,790 rows)
+- `wtf.csv` — public CSV extract (7,793 rows)
+- `wtf.json` — public JSON extract (7,793 rows)
 - `DATA_DICTIONARY.md` — field definitions for the exported files
 - `METHODOLOGY.md` — scope, refresh policy, and caveats
 - `CHANGELOG.md` — latest snapshot metadata
@@ -65,25 +65,25 @@ print(df.head())
 | domain        | status    | ask_price | renewal_price | attractiveness | demand | length | registrar         |
 | ------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------------- |
 | nimble.wtf    | available | $5.99     | $46.99        | 94             | 33     | 6      | name.com          |
-| eleven.wtf    | resell    | $5.99     | $46.99        | 88             | 34     | 6      | Spaceship, Inc.   |
+| eleven.wtf    | resell    | $5.99     | $46.99        | 88             | 33     | 6      | Spaceship, Inc.   |
 | property.wtf  | premium   | $42.90    | $42.90        | 90             | 41     | 8      | namecheap         |
 | adaptive.wtf  | available | $5.99     | $46.99        | 76             | 32     | 8      | name.com          |
 | concrete.wtf  | resell    | $5.99     | $46.99        | 102            | 31     | 8      | Spaceship, Inc.   |
 | total.wtf     | premium   | $250      | $250          | 108            | 38     | 5      | name.com          |
 | second.wtf    | available | $5.99     | $46.99        | 120            | 28     | 6      | name.com          |
 | leap.wtf      | resell    | —         | —             | 76             | 99     | 4      | Dynadot Inc       |
-| personal.wtf  | premium   | $85.80    | $85.80        | 91             | 35     | 8      | namecheap         |
+| dental.wtf    | premium   | $41.25    | $41.25        | 90             | 36     | 6      | name.com          |
 | curative.wtf  | available | $5.99     | $46.99        | 92             | 27     | 8      | name.com          |
 | select.wtf    | resell    | —         | —             | 74             | 99     | 6      | Dynadot Inc       |
-| tour.wtf      | premium   | $128.70   | $128.70       | 72             | 35     | 4      | namecheap         |
+| personal.wtf  | premium   | $85.80    | $85.80        | 91             | 35     | 8      | namecheap         |
 | outside.wtf   | available | $5.99     | $46.99        | 60             | 26     | 7      | name.com          |
-| beast.wtf     | resell    | —         | —             | 64             | 98     | 5      | Dynadot Inc       |
-| dental.wtf    | premium   | $41.25    | $41.25        | 90             | 34     | 6      | name.com          |
-| different.wtf | available | $5.99     | $46.99        | 100            | 25     | 9      | name.com          |
 | checkout.wtf  | resell    | —         | —             | 68             | 79     | 9      | Sav.com, LLC - 15 |
-| expert.wtf    | premium   | $123.75   | $123.75       | 104            | 32     | 6      | name.com          |
-| release.wtf   | available | $49.48    | —             | 98             | 25     | 7      | namecheap         |
+| tour.wtf      | premium   | $128.70   | $128.70       | 72             | 35     | 4      | namecheap         |
+| different.wtf | available | $5.99     | $46.99        | 100            | 25     | 9      | name.com          |
 | get.wtf       | resell    | —         | —             | 88             | 69     | 3      | Spaceship, Inc.   |
+| medical.wtf   | premium   | $250      | $250          | 100            | 32     | 7      | name.com          |
+| release.wtf   | available | $49.48    | —             | 98             | 25     | 7      | namecheap         |
+| now.wtf       | resell    | —         | —             | 78             | 66     | 3      | Porkbun LLC       |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                                   |
 | ----------------------- | ------------------------------------------------ |
-| 7,790-row public sample | 5,622,106 live domains                           |
+| 7,793-row public sample | 7,790 live domains                               |
 | Static CSV / JSON       | live search and daily refresh                    |
 | Basic exported fields   | deeper price, demand, risk, and workflow context |
 | No persistence          | Radar, saved search, and alerts                  |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .WTF One-Word Domains*. Version 2026-04-10. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .WTF One-Word Domains*. Version 2026-04-12. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
