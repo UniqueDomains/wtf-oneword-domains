@@ -16,7 +16,7 @@ Daily-updated dataset of available and resale .wtf one-word domains from Unique 
 
 **Public extract:** 7,793 rows · **Live catalog:** 7,790 domains
 
-**Last updated:** 2026-04-12  
+**Last updated:** 2026-04-13  
 **Canonical page:** `https://unique.domains/domains/tld/wtf`  
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain        | status    | ask_price | renewal_price | attractiveness | demand | length | registrar         |
-| ------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------------- |
-| nimble.wtf    | available | $5.99     | $46.99        | 94             | 33     | 6      | name.com          |
-| eleven.wtf    | resell    | $5.99     | $46.99        | 88             | 33     | 6      | Spaceship, Inc.   |
-| property.wtf  | premium   | $42.90    | $42.90        | 90             | 41     | 8      | namecheap         |
-| adaptive.wtf  | available | $5.99     | $46.99        | 76             | 32     | 8      | name.com          |
-| concrete.wtf  | resell    | $5.99     | $46.99        | 102            | 31     | 8      | Spaceship, Inc.   |
-| total.wtf     | premium   | $250      | $250          | 108            | 38     | 5      | name.com          |
-| second.wtf    | available | $5.99     | $46.99        | 120            | 28     | 6      | name.com          |
-| leap.wtf      | resell    | —         | —             | 76             | 99     | 4      | Dynadot Inc       |
-| dental.wtf    | premium   | $41.25    | $41.25        | 90             | 36     | 6      | name.com          |
-| curative.wtf  | available | $5.99     | $46.99        | 92             | 27     | 8      | name.com          |
-| select.wtf    | resell    | —         | —             | 74             | 99     | 6      | Dynadot Inc       |
-| personal.wtf  | premium   | $85.80    | $85.80        | 91             | 35     | 8      | namecheap         |
-| outside.wtf   | available | $5.99     | $46.99        | 60             | 26     | 7      | name.com          |
-| checkout.wtf  | resell    | —         | —             | 68             | 79     | 9      | Sav.com, LLC - 15 |
-| tour.wtf      | premium   | $128.70   | $128.70       | 72             | 35     | 4      | namecheap         |
-| different.wtf | available | $5.99     | $46.99        | 100            | 25     | 9      | name.com          |
-| get.wtf       | resell    | —         | —             | 88             | 69     | 3      | Spaceship, Inc.   |
-| medical.wtf   | premium   | $250      | $250          | 100            | 32     | 7      | name.com          |
-| release.wtf   | available | $49.48    | —             | 98             | 25     | 7      | namecheap         |
-| now.wtf       | resell    | —         | —             | 78             | 66     | 3      | Porkbun LLC       |
+| domain        | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                                 |
+| ------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------------------------------------------------------- |
+| nimble.wtf    | available | $5.99     | $46.99        | 94             | 33     | 6      | name.com                                                  |
+| eleven.wtf    | resell    | $5.99     | $46.99        | 88             | 33     | 6      | Spaceship, Inc.                                           |
+| property.wtf  | premium   | $42.90    | $42.90        | 90             | 41     | 8      | namecheap                                                 |
+| adaptive.wtf  | available | $5.99     | $46.99        | 76             | 32     | 8      | name.com                                                  |
+| concrete.wtf  | resell    | $5.99     | $46.99        | 102            | 32     | 8      | Spaceship, Inc.                                           |
+| total.wtf     | premium   | $250      | $250          | 108            | 38     | 5      | name.com                                                  |
+| second.wtf    | available | $5.99     | $46.99        | 120            | 28     | 6      | name.com                                                  |
+| checkout.wtf  | resell    | —         | —             | 68             | 79     | 9      | Sav.com, LLC - 15                                         |
+| dental.wtf    | premium   | $41.25    | $41.25        | 90             | 36     | 6      | name.com                                                  |
+| curative.wtf  | available | $5.99     | $46.99        | 92             | 27     | 8      | name.com                                                  |
+| get.wtf       | resell    | —         | —             | 88             | 69     | 3      | Spaceship, Inc.                                           |
+| personal.wtf  | premium   | $85.80    | $85.80        | 91             | 35     | 8      | namecheap                                                 |
+| outside.wtf   | available | $5.99     | $46.99        | 60             | 26     | 7      | name.com                                                  |
+| now.wtf       | resell    | —         | —             | 78             | 66     | 3      | Porkbun LLC                                               |
+| tour.wtf      | premium   | $128.70   | $128.70       | 72             | 35     | 4      | namecheap                                                 |
+| different.wtf | available | $5.99     | $46.99        | 100            | 25     | 9      | name.com                                                  |
+| domain.wtf    | resell    | —         | —             | 80             | 65     | 6      | Dynadot Inc                                               |
+| medical.wtf   | premium   | $250      | $250          | 100            | 32     | 7      | name.com                                                  |
+| release.wtf   | available | $49.48    | —             | 98             | 25     | 7      | namecheap                                                 |
+| smart.wtf     | resell    | —         | —             | 74             | 56     | 5      | Global Domains International, Inc. DBA DomainCostClub.com |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .WTF One-Word Domains*. Version 2026-04-12. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .WTF One-Word Domains*. Version 2026-04-13. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
