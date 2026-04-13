@@ -1,10 +1,10 @@
-# Available .WTF One-Word Domains (7,790)
+# Available .WTF One-Word Domains (7,794)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
-  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-7%2C793%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-7%2C790%20domains-6f42c1">
+  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-7%2C794%20rows-8250df">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-7%2C794%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -14,7 +14,7 @@ Daily-updated dataset of available and resale .wtf one-word domains from Unique 
 > **Note:** this repository currently mirrors the full live catalog for this exact search.
 > Unique Domains counts can still change as the search refreshes.
 
-**Public extract:** 7,793 rows · **Live catalog:** 7,790 domains
+**Public extract:** 7,794 rows · **Live catalog:** 7,794 domains
 
 **Last updated:** 2026-04-13  
 **Canonical page:** `https://unique.domains/domains/tld/wtf`  
@@ -43,8 +43,8 @@ This repository is the public extract for Unique Domains' .WTF one-word domain c
 
 ### Files
 
-- `wtf.csv` — public CSV extract (7,793 rows)
-- `wtf.json` — public JSON extract (7,793 rows)
+- `wtf.csv` — public CSV extract (7,794 rows)
+- `wtf.json` — public JSON extract (7,794 rows)
 - `DATA_DICTIONARY.md` — field definitions for the exported files
 - `METHODOLOGY.md` — scope, refresh policy, and caveats
 - `CHANGELOG.md` — latest snapshot metadata
@@ -76,10 +76,10 @@ print(df.head())
 | curative.wtf  | available | $5.99     | $46.99        | 92             | 27     | 8      | name.com                                                  |
 | get.wtf       | resell    | —         | —             | 88             | 69     | 3      | Spaceship, Inc.                                           |
 | personal.wtf  | premium   | $85.80    | $85.80        | 91             | 35     | 8      | namecheap                                                 |
-| outside.wtf   | available | $5.99     | $46.99        | 60             | 26     | 7      | name.com                                                  |
+| different.wtf | available | $5.99     | $46.99        | 100            | 26     | 9      | name.com                                                  |
 | now.wtf       | resell    | —         | —             | 78             | 66     | 3      | Porkbun LLC                                               |
 | tour.wtf      | premium   | $128.70   | $128.70       | 72             | 35     | 4      | namecheap                                                 |
-| different.wtf | available | $5.99     | $46.99        | 100            | 25     | 9      | name.com                                                  |
+| outside.wtf   | available | $5.99     | $46.99        | 60             | 26     | 7      | name.com                                                  |
 | domain.wtf    | resell    | —         | —             | 80             | 65     | 6      | Dynadot Inc                                               |
 | medical.wtf   | premium   | $250      | $250          | 100            | 32     | 7      | name.com                                                  |
 | release.wtf   | available | $49.48    | —             | 98             | 25     | 7      | namecheap                                                 |
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                                   |
 | ----------------------- | ------------------------------------------------ |
-| 7,793-row public sample | 7,790 live domains                               |
+| 7,794-row public sample | 7,794 live domains                               |
 | Static CSV / JSON       | live search and daily refresh                    |
 | Basic exported fields   | deeper price, demand, risk, and workflow context |
 | No persistence          | Radar, saved search, and alerts                  |
