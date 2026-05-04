@@ -1,10 +1,10 @@
-# Available .WTF One-Word Domains (10,143)
+# Available .WTF One-Word Domains (10,512)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-10%2C143%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-10%2C512%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,11 +12,11 @@
 Daily-updated public extract of available and resale .wtf one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **10,143 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **10,512 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 10,143 domains
+**Public extract:** 1,000 rows · **Live catalog:** 10,512 domains · **Median ask:** $10.00 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-04-26  
+**Last updated:** 2026-05-04  
 **Canonical page:** `https://unique.domains/domains/tld/wtf`  
 **Best for:** founders, investors, studios
 
@@ -72,18 +72,18 @@ print(df.head())
 | boats.wtf       | premium   | $82.50    | —             | 52             | 24     | 5      | name.com          |
 | Mikey.wtf       | available | $49.48    | —             | 70             | 21     | 5      | namecheap         |
 | spectra.wtf     | resell    | —         | —             | 62             | 34     | 7      | Sav.com, LLC - 23 |
-| products.wtf    | premium   | $123.75   | —             | 60             | 23     | 8      | name.com          |
-| distributed.wtf | available | $5.99     | —             | 64             | 21     | 11     | name.com          |
+| coupons.wtf     | premium   | $78.54    | $78.54        | 52             | 24     | 7      | namesilo          |
+| smartest.wtf    | available | $5.99     | —             | 64             | 20     | 8      | name.com          |
 | letsgo.wtf      | resell    | —         | —             | 57             | 31     | 7      | Sav.com, LLC - 10 |
-| apartments.wtf  | premium   | $118.80   | $118.80       | 60             | 21     | 10     | namesilo          |
+| products.wtf    | premium   | $123.75   | —             | 60             | 23     | 8      | name.com          |
 | generations.wtf | available | $5.99     | —             | 56             | 20     | 11     | name.com          |
 | rewards.wtf     | resell    | —         | —             | 62             | 30     | 7      | Sav.com, LLC - 45 |
-| watches.wtf     | premium   | $82.50    | —             | 84             | 19     | 7      | name.com          |
+| apartments.wtf  | premium   | $118.80   | $118.80       | 60             | 21     | 10     | namesilo          |
 | stepup.wtf      | available | $5.99     | —             | 78             | 19     | 7      | name.com          |
 | popup.wtf       | resell    | —         | —             | 84             | 29     | 6      | Spaceship, Inc.   |
-| vacations.wtf   | premium   | $78.54    | $78.54        | 56             | 19     | 9      | namesilo          |
+| watches.wtf     | premium   | $82.50    | —             | 84             | 19     | 7      | name.com          |
 | phones.wtf      | available | $5.99     | —             | 76             | 19     | 6      | name.com          |
-| from.wtf        | resell    | —         | —             | 72             | 28     | 4      | Sav.com, LLC - 27 |
+| brands.wtf      | resell    | —         | —             | 62             | 28     | 6      | Sav.com, LLC - 39 |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -91,13 +91,13 @@ These rows are selected to show a more legible mix of visible asks, resale conte
 
 You are seeing the public sample. Unique Domains keeps the exact search context and adds saved workflows, deeper filters, and alerting.
 
-| GitHub extract          | Unique Domains                                   |
-| ----------------------- | ------------------------------------------------ |
-| 1,000-row public sample | 10,143 live domains                              |
-| Static CSV / JSON       | live search and daily refresh                    |
-| Basic exported fields   | deeper price, demand, risk, and workflow context |
-| No persistence          | Radar, saved search, and alerts                  |
-| No founder workflow     | Project, shortlist, and next-step workflow       |
+| GitHub extract          | Unique Domains                             |
+| ----------------------- | ------------------------------------------ |
+| 1,000-row public sample | 10,512 live domains                        |
+| Static CSV / JSON       | live search and daily refresh              |
+| Basic exported fields   | 0 high-demand names under $2,500           |
+| No persistence          | Radar, saved search, and alerts            |
+| No founder workflow     | Project, shortlist, and next-step workflow |
 
 If this sample already feels useful, Unique Domains is where the exact search becomes a workflow.
 
@@ -120,13 +120,12 @@ See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
 ## ⚠️ Methodology and caveats
 
-This repository follows the exact public search represented by the canonical page above.
+This selection is entirely one-word .wtf domains. The extension gives blunt, playful, or provocative framing, so the word choice matters more than it would in a neutral TLD. Names like let.wtf, history.wtf, chocolate.wtf, and probable.wtf read very differently from pervert.wtf or jamesdean.wtf. For founders, the best picks are memorable words that still feel intentional with .wtf attached. For investors, the edge is in words with broad recognition, clean spelling, and resale-friendly tone. With a median ask of 10.00, weak names can look as cheap as strong ones, so selection quality matters more than sticker price.
 
-- This repository is a public extract, not the full live catalog.
-- Counts, prices, and statuses can change over time.
-- Scores are decision-support signals, not guarantees of resale value.
-- Trademark, SEO, and risk signals should be treated as screening inputs, not legal or specialist advice.
-- Unique Domains contains deeper filters, monitoring, and decision workflows than this public extract.
+- Prioritize words that still read clearly with a provocative TLD
+- Avoid obvious trademark or identity-linked terms
+- Choose broad, memorable words over narrow references
+- Treat tone mismatch as a bigger risk than entry price
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -143,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .WTF One-Word Domains*. Version 2026-04-26. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .WTF One-Word Domains*. Version 2026-05-04. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
