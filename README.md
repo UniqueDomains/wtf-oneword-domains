@@ -14,10 +14,10 @@ Daily-updated public extract of available and resale .wtf one-word domains from 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
 > The full live catalog for this exact search currently contains **10,522 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 10,522 domains · **Median ask:** $10.00 · **High-demand under $2,500:** 0
+**Public extract:** 1,000 rows · **Live catalog:** 10,522 domains · **Median ask:** $9.93 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-26  
-**Canonical page:** `https://unique.domains/domains/tld/wtf`  
+**Last updated:** 2026-07-07
+**Canonical page:** `https://unique.domains/domains/tld/wtf`
 **Best for:** founders, investors, studios
 
 ---
@@ -43,13 +43,13 @@ This repository is the public extract for Unique Domains' .WTF one-word domain c
 
 ### Files
 
-- `wtf.csv` — public CSV extract (1,000 rows)
-- `wtf.json` — public JSON extract (1,000 rows)
-- `DATA_DICTIONARY.md` — field definitions for the exported files
-- `METHODOLOGY.md` — scope, refresh policy, and caveats
-- `CHANGELOG.md` — latest snapshot metadata
-- `CITATION.cff` — machine-readable dataset citation metadata
-- `LICENSE` — terms for the public extract
+- `wtf.csv`, public CSV extract (1,000 rows)
+- `wtf.json`, public JSON extract (1,000 rows)
+- `DATA_DICTIONARY.md`, field definitions for the exported files
+- `METHODOLOGY.md`, scope, refresh policy, and caveats
+- `CHANGELOG.md`, latest snapshot metadata
+- `CITATION.cff`, machine-readable dataset citation metadata
+- `LICENSE`, terms for the public extract
 
 ## 🧭 Quick start
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain          | status    | ask_price | renewal_price | attractiveness | demand | length | registrar         |
-| --------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------------- |
-| motorsport.wtf  | available | $5.99     | —             | 74             | 23     | 10     | name.com          |
-| lets.wtf        | resell    | —         | —             | 77             | 39     | 4      | Sav.com, LLC - 11 |
-| toys.wtf        | premium   | $78.54    | $78.54        | 60             | 24     | 4      | namesilo          |
-| webshop.wtf     | available | $5.99     | —             | 76             | 22     | 8      | name.com          |
-| WiFi.wtf        | resell    | —         | —             | 83             | 37     | 5      | Sav.com, LLC - 24 |
-| boats.wtf       | premium   | $82.50    | —             | 52             | 24     | 5      | name.com          |
-| Mikey.wtf       | available | $49.48    | —             | 70             | 21     | 5      | namecheap         |
-| spectra.wtf     | resell    | —         | —             | 62             | 34     | 7      | Sav.com, LLC - 23 |
-| coupons.wtf     | premium   | $78.54    | $78.54        | 52             | 24     | 7      | namesilo          |
-| smartest.wtf    | available | $5.99     | —             | 64             | 20     | 8      | name.com          |
-| letsgo.wtf      | resell    | —         | —             | 57             | 31     | 7      | Sav.com, LLC - 10 |
-| products.wtf    | premium   | $123.75   | —             | 60             | 23     | 8      | name.com          |
-| generations.wtf | available | $5.99     | —             | 56             | 20     | 11     | name.com          |
-| rewards.wtf     | resell    | —         | —             | 62             | 30     | 7      | Sav.com, LLC - 45 |
-| apartments.wtf  | premium   | $118.80   | $118.80       | 60             | 21     | 10     | namesilo          |
-| stepup.wtf      | available | $5.99     | —             | 78             | 19     | 7      | name.com          |
-| popup.wtf       | resell    | —         | —             | 84             | 28     | 6      | Spaceship, Inc.   |
-| watches.wtf     | premium   | $82.50    | —             | 84             | 19     | 7      | name.com          |
-| phones.wtf      | available | $5.99     | —             | 76             | 19     | 6      | name.com          |
-| brands.wtf      | resell    | —         | —             | 62             | 28     | 6      | Sav.com, LLC - 39 |
+| domain      | status    | ask_price | renewal_price | attractiveness | demand | length | registrar         |
+| ----------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------------- |
+| correct.wtf | available | $5.99     | $46.99        | high           | low    | 7      | name.com          |
+| nothing.wtf | resell    | —         | —             | high           | low    | 7      | Sav.com, LLC - 27 |
+| kgb.wtf     | available | $5.99     | —             | high           | low    | 3      | name.com          |
+| aim.wtf     | resell    | —         | —             | high           | low    | 3      | NameCheap, Inc.   |
+| age.wtf     | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo          |
+| lay.wtf     | available | $5.99     | —             | medium         | low    | 3      | name.com          |
+| con.wtf     | resell    | —         | —             | high           | low    | 3      | Sav.com, LLC - 33 |
+| aid.wtf     | premium   | $118.80   | $118.80       | medium         | low    | 3      | namesilo          |
+| UPC.wtf     | available | $5.99     | —             | high           | low    | 3      | name.com          |
+| fly.wtf     | resell    | —         | —             | high           | low    | 3      | Dynadot Inc       |
+| dew.wtf     | premium   | $78.54    | $78.54        | medium         | low    | 3      | namesilo          |
+| xii.wtf     | available | $5.99     | $46.99        | medium         | low    | 3      | name.com          |
+| her.wtf     | resell    | —         | —             | medium         | low    | 3      | Sav.com, LLC - 44 |
+| due.wtf     | premium   | $82.50    | —             | high           | low    | 3      | name.com          |
+| acts.wtf    | available | $5.99     | —             | medium         | low    | 4      | name.com          |
+| jar.wtf     | resell    | —         | —             | high           | low    | 3      | Spaceship, Inc.   |
+| lap.wtf     | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo          |
+| aunt.wtf    | available | $5.99     | —             | high           | low    | 4      | name.com          |
+| now.wtf     | resell    | —         | —             | high           | medium | 3      | Porkbun LLC       |
+| led.wtf     | premium   | $118.80   | $118.80       | high           | low    | 3      | namesilo          |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -105,27 +105,27 @@ If this sample already feels useful, Unique Domains is where the exact search be
 
 ## 🧱 Field summary
 
-- `domain` — Fully qualified domain name.
-- `status` — Current acquisition state for the domain in the public extract.
-- `purchase_price` — Visible purchase price when available.
-- `renewal_price` — Visible renewal price when available.
-- `attractiveness` — Composite naming score used as a decision-support signal.
-- `demand` — Relative buyer-pressure score when available.
-- `length` — Character count without the TLD.
-- `registrar` — Registrar name when known.
-- `created_at` — Creation timestamp when known.
-- `expires_at` — Expiry timestamp when known.
+- `domain`, Fully qualified domain name.
+- `status`, Current acquisition state for the domain in the public extract.
+- `purchase_price`, Visible purchase price when available.
+- `renewal_price`, Visible renewal price when available.
+- `attractiveness`, Public composite naming band used as a decision-support signal.
+- `demand`, Public buyer-pressure band when available.
+- `length`, Character count without the TLD.
+- `registrar`, Registrar name when known.
+- `created_at`, Creation timestamp when known.
+- `expires_at`, Expiry timestamp when known.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
 ## ⚠️ Methodology and caveats
 
-This selection is entirely one-word .wtf domains. The extension gives blunt, playful, or provocative framing, so the word choice matters more than it would in a neutral TLD. Names like let.wtf, history.wtf, chocolate.wtf, and probable.wtf read very differently from pervert.wtf or jamesdean.wtf. For founders, the best picks are memorable words that still feel intentional with .wtf attached. For investors, the edge is in words with broad recognition, clean spelling, and resale-friendly tone. With a median ask of 10.00, weak names can look as cheap as strong ones, so selection quality matters more than sticker price.
+These domains use the .WTF extension, known for its irreverent, memorable tone. Names in this set range from single words to short phrases like affirmation.wtf, makesense.wtf, and QandA.wtf, built for quick recall and playful branding. With a median ask near $10, this list suits founders testing an offbeat name and investors scanning a low-cost, high-volume TLD. Renewal cost and spelling clarity should still be checked per name before buying.
 
-- Prioritize words that still read clearly with a provocative TLD
-- Avoid obvious trademark or identity-linked terms
-- Choose broad, memorable words over narrow references
-- Treat tone mismatch as a bigger risk than entry price
+- 10,522 one-word .WTF domain names in this selection
+- Median ask near $10 across the list
+- Short, playful names built for brandable picks
+- Check pricing and renewal before buying any name
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .WTF One-Word Domains*. Version 2026-05-26. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .WTF One-Word Domains*. Version 2026-07-07. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
