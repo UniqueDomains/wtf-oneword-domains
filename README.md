@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .wtf one-word domains from 
 
 **Public extract:** 1,000 rows · **Live catalog:** 15,615 domains · **Median ask:** $6.85 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-08-21
+**Last updated:** 2026-08-22
 **Canonical page:** `https://unique.domains/domains/tld/wtf`
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain      | status    | ask_price | renewal_price | attractiveness | demand | length | registrar         |
-| ----------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------------- |
-| correct.wtf | available | $5.99     | $46.99        | high           | low    | 7      | name.com          |
-| kgb.wtf     | available | $5.99     | —             | high           | low    | 3      | name.com          |
-| aim.wtf     | resell    | —         | —             | high           | low    | 3      | NameCheap, Inc.   |
-| age.wtf     | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo          |
-| lay.wtf     | available | $5.99     | —             | medium         | low    | 3      | name.com          |
-| con.wtf     | resell    | —         | —             | high           | low    | 3      | Sav.com, LLC - 33 |
-| aid.wtf     | premium   | $118.80   | $118.80       | medium         | low    | 3      | namesilo          |
-| lxx.wtf     | available | $2.98     | $49.48        | low            | low    | 3      | namecheap         |
-| fly.wtf     | resell    | —         | —             | high           | low    | 3      | Dynadot Inc       |
-| dew.wtf     | premium   | $78.54    | $78.54        | medium         | low    | 3      | namesilo          |
-| UPC.wtf     | available | $5.99     | —             | high           | low    | 3      | name.com          |
-| her.wtf     | resell    | —         | —             | medium         | low    | 3      | Sav.com, LLC - 44 |
-| due.wtf     | premium   | $82.50    | —             | high           | low    | 3      | name.com          |
-| xii.wtf     | available | $5.99     | $46.99        | medium         | low    | 3      | name.com          |
-| jar.wtf     | resell    | —         | —             | high           | low    | 3      | Spaceship, Inc.   |
-| lap.wtf     | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo          |
-| acts.wtf    | available | $5.99     | —             | medium         | low    | 4      | name.com          |
-| now.wtf     | resell    | —         | —             | high           | medium | 3      | Porkbun LLC       |
-| led.wtf     | premium   | $118.80   | $118.80       | high           | low    | 3      | namesilo          |
-| agog.wtf    | available | $2.98     | $49.48        | low            | low    | 4      | namecheap         |
+| domain   | status    | ask_price | renewal_price | attractiveness | demand | length | registrar         |
+| -------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------------- |
+| kgb.wtf  | available | $5.99     | —             | high           | low    | 3      | name.com          |
+| aim.wtf  | resell    | —         | —             | high           | low    | 3      | NameCheap, Inc.   |
+| age.wtf  | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo          |
+| lay.wtf  | available | $5.99     | —             | medium         | low    | 3      | name.com          |
+| con.wtf  | resell    | —         | —             | high           | low    | 3      | Sav.com, LLC - 33 |
+| aid.wtf  | premium   | $118.80   | $118.80       | medium         | low    | 3      | namesilo          |
+| lxx.wtf  | available | $2.98     | $49.48        | low            | low    | 3      | namecheap         |
+| fly.wtf  | resell    | —         | —             | high           | low    | 3      | Dynadot Inc       |
+| dew.wtf  | premium   | $78.54    | $78.54        | medium         | low    | 3      | namesilo          |
+| UPC.wtf  | available | $5.99     | —             | high           | low    | 3      | name.com          |
+| her.wtf  | resell    | —         | —             | medium         | low    | 3      | Sav.com, LLC - 44 |
+| due.wtf  | premium   | $82.50    | —             | high           | low    | 3      | name.com          |
+| xii.wtf  | available | $5.99     | $46.99        | medium         | low    | 3      | name.com          |
+| jar.wtf  | resell    | —         | —             | high           | low    | 3      | Spaceship, Inc.   |
+| lap.wtf  | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo          |
+| acts.wtf | available | $5.99     | —             | medium         | low    | 4      | name.com          |
+| now.wtf  | resell    | —         | —             | high           | medium | 3      | Porkbun LLC       |
+| led.wtf  | premium   | $118.80   | $118.80       | high           | low    | 3      | namesilo          |
+| agog.wtf | available | $2.98     | $49.48        | low            | low    | 4      | namecheap         |
+| sup.wtf  | resell    | —         | —             | high           | low    | 3      | Sav.com, LLC - 11 |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .WTF One-Word Domains*. Version 2026-08-21. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .WTF One-Word Domains*. Version 2026-08-22. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
