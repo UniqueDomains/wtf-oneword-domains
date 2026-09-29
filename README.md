@@ -1,10 +1,10 @@
-# Available .WTF One-Word Domains (19,454)
+# Available .WTF One-Word Domains (20,881)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-19%2C454%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-20%2C881%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,11 +12,11 @@
 Daily-updated public extract of available and resale .wtf one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **19,454 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **20,881 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 19,454 domains · **Median ask:** $7.36 · **High-demand under $2,500:** 1
+**Public extract:** 1,000 rows · **Live catalog:** 20,881 domains · **Median ask:** $7.62 · **High-demand under $2,500:** 1
 
-**Last updated:** 2026-09-28
+**Last updated:** 2026-09-29
 **Canonical page:** `https://unique.domains/domains/tld/wtf`
 **Best for:** founders, investors, studios
 
@@ -65,25 +65,25 @@ print(df.head())
 | domain   | status    | ask_price | renewal_price | attractiveness | demand | length | registrar         |
 | -------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------------- |
 | azt.wtf  | available | $7.49     | $36.49        | high           | low    | 3      | namesilo          |
-| cup.wtf  | resell    | —         | —             | high           | low    | 3      | Sav.com, LLC - 35 |
-| ate.wtf  | premium   | $38.94    | $38.94        | high           | low    | 3      | namesilo          |
+| abi.wtf  | resell    | —         | —             | high           | low    | 3      | —                 |
+| ate.wtf  | premium   | $18.30    | $36.55        | high           | low    | 3      | porkbun           |
 | bja.wtf  | available | $7.49     | $36.49        | medium         | low    | 3      | namesilo          |
-| est.wtf  | resell    | —         | —             | high           | low    | 3      | —                 |
+| cba.wtf  | resell    | —         | —             | high           | low    | 3      | —                 |
+| ira.wtf  | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo          |
+| cfr.wtf  | available | $7.49     | $36.49        | medium         | low    | 3      | namesilo          |
+| cup.wtf  | resell    | —         | —             | high           | low    | 3      | Sav.com, LLC - 35 |
 | lap.wtf  | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo          |
-| iaa.wtf  | available | $7.49     | $36.49        | medium         | low    | 3      | namesilo          |
-| kin.wtf  | resell    | —         | —             | high           | low    | 3      | Sav.com, LLC - 39 |
+| dsm.wtf  | available | $28.20    | $28.20        | medium         | low    | 3      | cloudflare        |
+| est.wtf  | resell    | —         | —             | high           | low    | 3      | —                 |
 | pak.wtf  | premium   | $36.30    | $36.30        | high           | low    | 3      | dynadot           |
-| icc.wtf  | available | $2.98     | $49.48        | high           | low    | 3      | namecheap         |
-| bags.wtf | resell    | —         | —             | high           | low    | 4      | Sav.com, LLC - 37 |
+| iaa.wtf  | available | $7.49     | $36.49        | medium         | low    | 3      | namesilo          |
+| ipc.wtf  | resell    | —         | —             | medium         | low    | 3      | —                 |
 | drug.wtf | premium   | $78.54    | $78.54        | high           | low    | 4      | namesilo          |
-| ilx.wtf  | available | $2.98     | $49.48        | medium         | low    | 3      | namecheap         |
-| dark.wtf | resell    | —         | —             | high           | medium | 4      | Sav.com, LLC - 6  |
+| icc.wtf  | available | $2.98     | $49.48        | high           | low    | 3      | namecheap         |
+| kin.wtf  | resell    | —         | —             | high           | low    | 3      | Sav.com, LLC - 39 |
 | loft.wtf | premium   | $118.80   | $118.80       | high           | low    | 4      | namesilo          |
-| kgb.wtf  | available | $5.99     | —             | high           | low    | 3      | name.com          |
-| jazz.wtf | resell    | —         | —             | high           | low    | 4      | Sav.com, LLC - 1  |
-| post.wtf | premium   | $242      | $242          | high           | medium | 4      | namesilo          |
-| lid.wtf  | available | $7.49     | $36.49        | high           | low    | 3      | namesilo          |
-| lets.wtf | resell    | —         | —             | high           | low    | 4      | Sav.com, LLC - 11 |
+| ilx.wtf  | available | $2.98     | $49.48        | medium         | low    | 3      | namecheap         |
+| til.wtf  | resell    | —         | —             | high           | low    | 3      | —                 |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                             |
 | ----------------------- | ------------------------------------------ |
-| 1,000-row public sample | 19,454 live domains                        |
+| 1,000-row public sample | 20,881 live domains                        |
 | Static CSV / JSON       | live search and daily refresh              |
 | Basic exported fields   | 1 high-demand names under $2,500           |
 | No persistence          | Radar, saved search, and alerts            |
@@ -144,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .WTF One-Word Domains*. Version 2026-09-28. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .WTF One-Word Domains*. Version 2026-09-29. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
